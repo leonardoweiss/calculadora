@@ -14,12 +14,14 @@ h1{
 
 #caixa{
 	text-align: center;
-	margin-top: 8em;
+	margin-top: 3.2em;
 }
 
 #calculadora{
-	padding: 50px 35px;
+	padding: 40px 35px;
 	background-color: rgba(0, 0, 0, 0.8);
+	backdrop-filter: blur( 3px );
+	-webkit-backdrop-filter: blur( 3px );
 	display: inline-block;
 	border-radius: 6px;
 	box-shadow: 1px 1px 12px rgba(255, 255, 255, 0.7);
@@ -28,6 +30,8 @@ h1{
 #display input{
 	width: 18em;
 	height: 3em;
+	padding: 8px;
+	text-align: right;
 	border: none;
 	margin: 3px 3px 18px 3px;
 	background-color: aliceblue;
