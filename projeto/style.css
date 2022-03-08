@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#display input{
+	width: 14em;
+	height: 3em;
+	border: 1px solid black;
+	margin: 3px;
+}
+
+#linha1 button, #linha2 button, #linha3 button, #linha4 button{
+	width: 3em;
+	height: 3em;
+	border: 1px solid black;
+	margin: 3px;
+}
+
+#linha5 button{
+	width: 6.6em;
+	height: 3em;
+	border: 1px solid black;
+	margin: 3px;
+}
